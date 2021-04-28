@@ -7,9 +7,9 @@ terraform {
 }
 
 provider "aci" {
-  username = "admin"
-  password = "ciscopsdt"
-  url      = "https://sandboxapicdc.cisco.com"
+  username = var.username
+  password = var.password
+  url      = var.apic_url
   insecure = false
 }
 
