@@ -23,3 +23,11 @@ module "vrf" {
   vrf_name = var.vrf_name
   tenant_id = module.tenant.tenant_id
 }
+
+module "bd" {
+  source = "../../modules/bridge_domain"
+  tenant_id = module.tenant.tenant_id
+  vrf_id = module.vrf.vrf_id
+  bd_name = var.bd_name
+  bd_ip = var.bd_ip
+}

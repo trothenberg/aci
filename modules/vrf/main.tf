@@ -6,7 +6,7 @@ terraform {
   }
 }
 
-resource "aci_vrf" "BeatLabratory" {
+resource "aci_vrf" "vrf" {
   tenant_dn              = var.tenant_id
   name                   = var.vrf_name
   ip_data_plane_learning = "enabled"

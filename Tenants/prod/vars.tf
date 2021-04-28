@@ -22,3 +22,23 @@ variable "vrf_name" {
     type = string
     description = "Name(s) of the VRF(s)"
 }
+
+variable "bd_name" {
+  type = string
+  description = "Name of Bridge Domain"
+}
+
+variable "ap_name" {
+    type = string
+    description = "Application Profile name"
+}
+
+variable "bd_ip" {
+    type = string
+    description = "Bridge Domain IP address"
+}
+
+variable "app_epg_name" {
+    type = string
+    description = "Application EPG name"
+}
