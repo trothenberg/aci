@@ -42,3 +42,13 @@ variable "app_epg_name" {
     type = string
     description = "Application EPG name"
 }
+
+variable "ct_name" {
+    type = string
+    description = "Contract name"
+}
+
+variable "subject_name" {
+    type = string
+    description = "Subject name"
+}

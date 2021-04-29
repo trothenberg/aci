@@ -10,7 +10,7 @@ tenant_name = "PrestigeWorldwide"
 vrf_name = "BeatLaboratory"
 
 #Bridge Domain
-bd_name = "10.10.10.0/24"
+bd_name = "10.10.10.0-24"
 bd_ip = "10.10.10.1/24"
 
 #Application Profile
@@ -18,3 +18,7 @@ ap_name = "DNS"
 
 #Application EPG
 app_epg_name = "DNS"
+
+#Contracts
+ct_name = "Intra-application"
+subject_name = "DNS"

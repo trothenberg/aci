@@ -1,4 +1,9 @@
+#Terraform state files
 .tfstate
 .tfstate.backup
+
+#Terraform lock
 .lock.hcl
+
+#Terraform variable definitions
 .tfvars
