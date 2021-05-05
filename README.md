@@ -1,1 +1,1 @@
-Work-in-progress for complete ACI tenant build out
+Work-in-progress for complete ACI tenant build out.  For single-site/APIC-local configurations only.
